@@ -2,7 +2,7 @@ const { queue } = require("async");
 const { Pool, Client, Query } = require("pg");
 const app = require("./app");
 const connectionString =
-  "postgres://sbjvolqp:QB5zL4RxhJW1B6gh3kAhovGaBWngun9I@john.db.elephantsql.com:5432/sbjvolqp";
+  "postgres://mahhqfhe:jRvw0YH-WFLb7dlP_ErnFGHWmKACz7Rw@john.db.elephantsql.com:5432/mahhqfhe";
 const pool = new Pool({
   connectionString: connectionString,
 });
